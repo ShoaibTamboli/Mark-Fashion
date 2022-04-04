@@ -1,0 +1,156 @@
+:root {
+    --Blue-color: rgb(207, 213, 233);
+    --DBlue-color: rgb(68, 69, 70);
+    --white-color: #fff;
+    --black-color: #000;
+    --slategray: rgb(217 217 217 / 40%);
+    --wishlist-icon-color: rgb(252, 0, 0);
+    --primary-color: #563d7c;
+    --secondary-color: #4c4c4e;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--Blue-color);
+    margin: 0.2rem 0rem;
+}
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    padding-left: 1.2rem;
+    
+}
+.logo{
+    display: flex;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.logo:hover{
+color: var(--secondary-color);
+border-bottom: 1px solid var(--DBlue-color);
+}
+.navigation-bar ul{
+    height: 3rem;
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+.navigation-bar ul li{
+    list-style: none;
+    padding: 0rem 2rem;
+}
+
+.navigation-bar ul li a{
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 18px;
+}
+.navigation-bar ul li a:hover{
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.search{
+    width: 16rem;
+}
+.search input{
+    border-radius: .3rem;
+    height: 1.5rem;
+    padding: 0px 5px;
+    width: 16rem;
+}
+
+.btn-login{
+    padding: 4px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    
+}
+
+.btn-login a{
+    text-decoration: none;
+    color:var(--white-color);
+}
+
+.fa-icons{
+    display: flex;
+    width: 20rem;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.icon{
+    font-size: x-large;
+    padding: 0rem 2rem;
+}
+.container{
+    min-height: calc(100vh - 3rem - 2.5rem);
+    width: 100%;
+}
+
+
+.slider{
+    width:100%;
+}
+
+.slider:hover{
+    cursor: pointer;
+}
+.slider img{
+    margin: 0.3rem 0.3rem;
+    width: 100%;
+}
+
+
+.card{
+    
+    margin: 2rem auto;
+    
+}
+
+.card h2{
+    margin: 1rem;
+}
+.cards{
+    display: flex; 
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+footer{
+    background-color:var(--Blue-color);
+    height: 2.3rem;
+}
+footer p{
+    color: var(--white-color);
+    
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{height:max-content; 
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: rgb(61 61 107 / 25%) 0px 2px 5px -1px, rgb(14 14 14 / 30%) 0px 1px 3px -1px;}
+
+    .card-title{
+        display: flex;
+    }

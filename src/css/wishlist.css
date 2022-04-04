@@ -1,0 +1,15 @@
+.wishlist-heading{
+margin: auto;
+text-align: center;
+padding: 1rem;
+}
+
+.wishlist-container{
+    background-color: var(--slategray);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.wishlist-icon{
+   fill: var(--wishlist-icon-color);
+}
