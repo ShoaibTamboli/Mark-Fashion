@@ -10,11 +10,11 @@
 }
 
 .product-listing-container{
-height: 900px;
+height: 100%;
  display: flex;
 }
 .product-listing{
-    height: 200px;
+   display: flex;
 }
 
 .radio-label{
