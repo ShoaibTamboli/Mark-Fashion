@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--slategray);
+    height: 70vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Login-fields-container{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--slategray);
+    width: 50%;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.label-holder{
+    margin-left: 5.5rem;
+}
+.label-fpassword{
+    padding-left: 1rem;
+}
+.button{
+    border-radius: 0.2rem;
+    width: 11rem;
+    cursor: pointer;
+    padding: 0.3rem;
+}
+
+.button:hover{
+    background-color: var(--DBlue-color);
+    color: var(--white-color);
+}
+
+.align-label{
+    padding:0.2rem;
+}
